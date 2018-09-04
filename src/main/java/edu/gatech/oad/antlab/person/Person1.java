@@ -33,8 +33,7 @@ public class Person1 {
 	  //Person 1 put your implementation here
 		String firstTwo = input.substring(0, 2);
 		String end = input.substring(2);
-		String finalString = end + firstTwo;
-	  	return finalString;
+		return end + firstTwo;
 	}
 	
 	/**
