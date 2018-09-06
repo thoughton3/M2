@@ -20,7 +20,7 @@ public class Person5 {
     name = pname;
   }
   	/**
-	 * This method should take the string
+	 * This method should take the string :D
 	 * input and return its characters rotated
 	 * 2 positions.
 	 * given "gtg123b" it should return
