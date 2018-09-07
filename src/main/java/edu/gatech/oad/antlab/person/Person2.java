@@ -36,14 +36,12 @@ public class Person2 {
 		String shuffledString = "";
 		while(randomString.length() < input.length()) {
 			int num = ran.nextInt(input.length());
-			if (input.indexOf(input.substring(num, num + 1)) == -1) {
+			if (shuffledString.indexOf(Integer.toString(num)) == -1) {
+				shuffledString += Integer.toString(num);
 				randomString += input.substring(num, num + 1);
 			}
 		}
-		for (int i = 0; i < input.length(); i++) {
-			shuffledString += input.substring(Integer.parseInt(randomString.substring(i)), Integer.parseInt(randomString.substring(i)) + 1);
-		}
-		return shuffledString;
+		return randomString;
 
 	}
 	/**
@@ -55,6 +53,6 @@ public class Person2 {
 	 *         object
 	 */
 	public String toString(String input) {
-	  return name + calc(input);
+	  return " " + name + " " + calc(input);
 	}
 }

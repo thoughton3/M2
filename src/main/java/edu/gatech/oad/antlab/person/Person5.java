@@ -20,7 +20,7 @@ public class Person5 {
     name = pname;
   }
   	/**
-	 * This method should take the string :D
+	 * This method should take the string
 	 * input and return its characters rotated
 	 * 2 positions.
 	 * given "gtg123b" it should return
@@ -45,7 +45,7 @@ public class Person5 {
 	 *         object
 	 */
 	public String toString(String input) {
-	  return name + calc(input);
+	  return " " + name + " " + calc(input);
 	}
 
 }

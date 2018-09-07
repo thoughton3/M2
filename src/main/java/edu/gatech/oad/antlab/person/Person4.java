@@ -47,7 +47,7 @@ public class Person4 {
      *         object
      */
     public String toString(String input) {
-      return name + calc(input);
+      return " " + name + " " + calc(input);
     }
 
 }
