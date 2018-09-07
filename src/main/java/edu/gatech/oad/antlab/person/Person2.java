@@ -36,7 +36,7 @@ public class Person2 {
 		String shuffledString = "";
 		while(randomString.length() < input.length()) {
 			int num = ran.nextInt(input.length());
-			if (input.indexOf(input.substring(num, num + 1)) == - 1) {
+			if (input.indexOf(input.substring(num, num + 1)) == -1) {
 				randomString += input.substring(num, num + 1);
 			}
 		}
